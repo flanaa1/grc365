@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Patchwork Village</title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	@font-face{
+	font-family: Strawberry;
+	src: url("Strawberry.ttf");
+	}@font-face{
+		font-family:Cambria Math;
+		src: url("Cambria Math.ttf");
+	}body{
+		background:#FFF4E5;
+	}#page{
+		width:928px;
+		height: 1700px;
+		background:white;
+		border: 1px dotted brown;
+		margin: 0 auto;
+	}#banner{
+		margin-top:0;
+		margin-bottom: 0;
+		width:100%;
+		height:20%;
+	}h1{
+		font: 32pt Strawberry;
+		text-align: center;
+		font color: brown;
+		margin-bottom: 12px;
+	}#textbox{
+		width: 800px;
+		height: 1150px;
+		margin: 0 auto;
+		background: whitesmoke;
+		border: 5px solid brown;
+		display:flex;
+		justify-content:center;
+		align-items: flex-start;
+		align-content: flex-start;
+		flex-wrap: wrap;
+	}figure{
+		margin: 24px;
+	}img, .zoom {
+		height: 150px;
+		border: 1px dotted brown;
+		box-shadow: 1px 2px 3px brown;
+		transition: transform 0.5s;
+	} figcaption {
+		font: 12pt/1.4em Cambria Math;
+		margin-top: 3px;
+	}.zoom{
+		background: url("lowqualitybro.png")
+		background-position: center;
+	}img:hover{
+		transform: scale(1.03);
+		transition: transform 0.5s;
+	}ul{
+		width:100%;
+		height: 50px;
+		display:flex;
+		justify-content: space-evenly;
+		background: #C2F1FC;
+		margin-bottom: 24px;
+	}li{
+		font:18pt/1.4em Cambria Math, normal;
+		list-style: none;
+		text-align:center;
+	}a{
+		color:#B42C12;
+		text-decoration:none;
+	}a:hover{
+		color: chocolate;
+		transition: background 0.5s;
+	}
+	</style>
+	</head>
+<body>
+	<div id="page">
+		<img id="banner" src="chatgpt2.png"/>
+		<ul>
+		<a href="index.html">
+			<li>Home</li></a>
+		<a href="Page2.html">
+			<li>My Inspiration</li></a>
+		<li>Portfolio</li>
+		</ul>
+		<h1>My Portfolio</h1>
+		<div id="textbox">
+		<figure>
+			<a href="fullsizebro.png">
+			<img src="lowqualitybro.png">
+			</a>
+			<figcaption>
+				The Brochure
+			</figcaption>
+		</figure>
+		<figure>
+			<a href="fullsizemag.png">
+			<img src="lowqualitymag.png">
+			</a>
+			<figcaption>
+				The Website
+			</figcaption>
+		</figure>
+		<figure>
+			<a href="fullsizecom.png">
+			<img src="lowqualitycomp.png">
+			</a>
+			<figcaption>
+				The Journal
+			</figcaption>
+		</figure>
+		</div>
+	</div>
+</body>
+</html>
