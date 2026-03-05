@@ -31,10 +31,9 @@
 		font: 32pt Strawberry;
 		text-align: center;
 		font color: brown;
-		margin-bottom: 12px;
 	}#textbox{
 		width: 800px;
-		height: 1150px;
+		height: 250px;
 		margin: 0 auto;
 		background: whitesmoke;
 		border: 5px solid brown;
@@ -53,6 +52,7 @@
 	} figcaption {
 		font: 12pt/1.4em Cambria Math;
 		margin-top: 3px;
+		text-align:center;
 	}.zoom{
 		background: url("lowqualitybro.png")
 		background-position: center;
@@ -76,6 +76,19 @@
 	}a:hover{
 		color: chocolate;
 		transition: background 0.5s;
+	}table{
+		margin: 24px auto;
+		font:14pt 1.4em Cambria Math;
+		border-collapse:collapse;
+		border: 2px dotted brown;
+	}td,th{
+		padding: 6px 12px;
+	}tr:nth-child(odd){
+		background:#C2F1FC;
+	}tr:nth-child(2){
+		background: #FFF4E5;
+		Position:sticky;
+		top:0;
 	}
 	</style>
 	</head>
@@ -90,6 +103,35 @@
 		<li>Portfolio</li>
 		</ul>
 		<h1>My Portfolio</h1>
+		<table>
+			<tr>
+				<th colspan="4">Table of Contents</th>
+			</tr>	
+			<tr>
+				<th>Title</th>
+				<th>Date</th>
+				<th>Material</th>
+				<th>Dimension</th>
+			</tr>
+			<tr>
+				<td>Brochure</td>
+				<td>Winter 2025</td>
+				<td>Illustrator, Procreate, Photoshop</td>
+				<td>3.66" x 8.5"</td>
+			</tr>
+			<tr>
+				<td>Journal</td>
+				<td>Winter 2025</td>
+				<td>Illustrator, Photoshop</td>
+				<td>8.5" x 11"</td>
+			</tr>
+			<tr>
+				<td>Website</td>
+				<td>Winter 2025</td>
+				<td>Illustrator, Photoshop, Adobe XD</td>
+				<td>1200px x 1440px</td>
+			</tr>
+		</table>
 		<div id="textbox">
 		<figure>
 			<a href="fullsizebro.png">
@@ -104,7 +146,7 @@
 			<img src="lowqualitymag.png">
 			</a>
 			<figcaption>
-				The Website
+				The Journal
 			</figcaption>
 		</figure>
 		<figure>
@@ -112,7 +154,7 @@
 			<img src="lowqualitycomp.png">
 			</a>
 			<figcaption>
-				The Journal
+				The Website
 			</figcaption>
 		</figure>
 		</div>
