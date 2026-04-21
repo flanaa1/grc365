@@ -30,6 +30,12 @@
 		20pt/2.4em Strawberry;
 		text-align:center;
 		font color:brown;
+	}h3{
+		font: 32pt Strawberry;
+		text-align: center;
+		font color: brown;
+		align: center;
+		margin: 180px 24px 24px 0;
 	}p{
 		font:14pt/1.4em Cambria Math, normal;
 		width:768px;
@@ -37,8 +43,9 @@
 	}img{
 		width: 300px;
 		float: left;
-		margin: 6px 24px 24px 0;
+		margin: 6px 12px 12px 0;
 		border: 1px dotted brown;
+		display:block;
 	}#banner{
 		margin-top:0;
 		margin-bottom: 0;
@@ -61,6 +68,14 @@
 	}a:hover{
 		color: chocolate;
 		transition: background 0.5s;
+	}main{
+		width: 3px;
+		Height: 3px;
+		boder: 1px dotted brown;
+		margin: 6px 12px 12px 150px;
+		align: center;
+		display: grid;
+		grid template: 400px 400px / 400px 400px;
 	}
 </style>
 </head>
@@ -81,6 +96,14 @@
 		<a
 		   href="mailto: aiyana.flanagan@gmail.com? subject=More Info">
 		<p>Email me for any questions!</p></a>
+		<h3>My Family Who Inspired</h3>
+		<main>
+			<img src="fullfamily.jpg"/>
+			<img src="gardenhorizontal.jpg"/>
+			<img style="grid-area:1/2/4/3;" src="shrunkvertical.jpg"/>
+		</main>
+		
+	
 	
 	</div>
 </body>
