@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Get in Touch</title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	@font-face{
+	font-family: Strawberry;
+	src: url("Strawberry.ttf");
+	}@font-face{
+		font-family:Cambria Math;
+		src: url("Cambria Math.ttf");
+	}body{
+		background:#FFF4E5;
+	}#page{
+		width:928px;
+		height: 1700px;
+		background:white;
+		border: 1px dotted brown;
+		margin: 0 auto;
+	}#banner{
+		margin-top:0;
+		margin-bottom: 0;
+		width:100%;
+		height:20%;
+	}h1{
+		font: 32pt Strawberry;
+		text-align: center;
+		font color: brown;
+	}ul{
+		width:100%;
+		height: 50px;
+		display:flex;
+		justify-content: space-evenly;
+		background: #C2F1FC;
+		margin-bottom: 24px;
+	}li{
+		font:18pt/1.4em Cambria Math, normal;
+		list-style: none;
+		text-align:center;
+	}a{
+		color:#B42C12;
+		text-decoration:none;
+	}form{
+		width:600px;
+		min-height:600px;
+		padding:24px;
+		background:#C2F1FC;
+		margin:36px auto;
+		border: 1px dotted brown;
+		box shadow: 2px 3px 6px brown;
+		border-radius:18px;
+		font:14pt/1.2em Cambria Math, normal;
+	}fieldset{
+		margin-top:18px;
+	}#personal input, #submit{
+		width:100%;
+		height:24px;
+	}input[type="text"]{
+		width:98%;
+		font:14pt/1.4em Cambria Math;
+		margin-top:6px;
+	}input[type="submit"]{
+		width:100px;
+		height:40px;
+		background:pink;
+		margin: 6px auto;
+		display:block;
+		border-radius: 6px;
+		border: 1px solid dimgray;
+		font: 14pt/1.4em Cambria;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="page">
+		<img id="banner" src="chatgpt2.png"/>
+		<ul>
+		<a href="index.html">
+			<li>Home</li></a>
+		<a href="Page2.html">
+			<li>My Inspiration</li></a>
+		<a href="Portfolio.html">
+			<li>Portfolio</li></a>
+		<li>Get in Touch</li>
+		</ul>
+	<form action="https://formsubmit.com/flanaa1@unlv.nevada.edu" method="post">
+		<h1> Contact The Artist</h1>
+		<input type="text"/><br/>
+		<label>Name</label><br/>
+		<input type="text"/><br/>
+		<label>Email</label>
+		<input type="text"/><br/>
+		<label>Phone Number</label>
+		<fieldset>
+			<legend> Reason for Contacting Us:</legend>
+			<input type="radio" name="service">
+			<label> Consultation</label><br/>
+			<input type="radio" name="service">
+			<label> Commission</label><br/>
+			<input type="radio" name="service">
+			<label> Collaboration</label><br/>
+			<input type="radio" name="service">
+			<label> Other</label><br/>
+		</fieldset>
+		<fieldset>
+			<legend>How Did You Hear About Us?</legend>
+			<input type="checkbox">
+			<label>Google</label><br/>
+			<input type="checkbox">
+			<label>Social Media</label><br/>
+			<input type="checkbox">
+			<label>Word of Mouth</label><br/>
+			<input type="checkbox">
+			<label>Other</label><br/>
+		</fieldset>
+		<fieldset>
+			<legend>Time Frame</legend>
+			<select>
+				<option>This Week</option>
+				<option>This Month</option>
+				<option>This Quarte</option>
+				<option>Not Sure</option>
+			</select>
+		</fieldset>
+		<label>Message</label><br/>
+		<textarea rows="5" cols="72">
+		</textarea>
+		</form>
+	</div>
+</body>
+</html>
