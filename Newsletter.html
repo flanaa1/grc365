@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Newsletter</title>
+<!-- Embedded or Global Style -->
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	@font-face {
+		font-family: Cambria Math;
+		src: url("Cambria Math.ttf");
+	}@font-face {
+		font-family: EB Garamond;
+		src: url("EBGaramond-Medium.ttf");
+	}body {
+		background:#FFF4E5;
+	}
+	#page {
+		width:928px;
+		max-width:100%;
+		height:3500px;
+		max-height:100%;
+		max-width:80%;
+		background: white;
+		border: 1px dotted brown;
+		margin: 0 auto;
+	}h1{
+		font: 30pt EB Garamond;
+		text-align: center;
+		color: #841717;
+	}h2{
+		font: 22pt/2.4em EB Garamond;
+		text-align: center;
+		color: #212E33;
+	}h3{
+		font: 20pt/2.4em Cambria Math;
+		text-align: center;
+		color: #212E33;
+		margin-bottom:15px;
+	}h4{
+		font: 16pt/1.4em Cambria Math;
+		text-align: left;
+		margin-left:40px;
+		color: #841717;
+	}h5{
+		font: 150pt/1.4em EB Garamond;
+		text-align:center;
+		margin:10px auto 5px auto;
+		background:url("town.jpg");
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+		background-size:cover;
+		filter:drop-shadow(1px 2px 0 black);
+	}p{
+		font: 14pt/1.4em Cambria Math, normal;
+		width: 75%;
+		margin: 13px auto;
+		color:#2E1A15,
+	} #banner {
+		margin-top: 0;
+		margin-bottom: 0;
+		width: 100%;
+	}img{
+		width:100%;
+		margin-bottom:20px;
+	}#caption{
+		font: 10pt Cambria;
+		margin:0 0 0 6px;
+	}#buttons{
+		width:100%;
+		margin:auto 0 0 2px;
+		display:flex;
+		justify-content:space-evenly; 
+	}button{
+		width:50px;
+		font-size:12pt;
+		margin: 6px;
+	}figure{
+		width:125px;
+	}figcaption{
+		font:10pt/1.4em Cambria Math, normal;
+		text-align: center;
+		margin:4px 20px 4px 3px;
+	}ul{
+		width:100%;
+		height: 50px;
+		display:flex;
+		justify-content: space-evenly;
+		background: #C2F1FC;
+		margin-bottom: 5px;
+	}li{
+		font:18pt/1.4em Cambria Math, normal;
+		list-style: none;
+		text-align:center;
+	}a{
+		color:#B42C12;
+		text-decoration:none;
+	}a:hover{
+		color: chocolate;
+		transition: background 0.5s;
+	}@media print {
+		body{
+			width:7in;
+			height:9.0in;
+		}figure{
+			display:none;
+			width:0;
+			height:0;
+		}
+	}@media only screen and (max-width:750px)
+		{
+	#page {
+		width: 928px;
+		max-width:80%;
+		height:3500px;
+		max-height:100%;
+		background: white;
+		border: 1px dotted brown;
+		margin: 0 auto;
+		} #banner {
+			margin-top: 0;
+			margin-bottom: 0;
+			width: 100%;
+			height:250px;
+		}#full{
+			float:none;
+			width:100%;
+			align-content: center;
+			margin: 15px auto;
+				
+		}img{
+			float:none;
+			width:20%;
+			margin: 15px auto;
+	}h1{
+		font: 32pt EB Garamond;
+		text-align: center;
+		color: #841717;
+	}h2{
+		font: 16pt/2.4em EB Garamond;
+		text-align: center;
+		color: #212E33;
+	}h3{
+		font: 20pt/2.4em Cambria Math;
+		text-align: center;
+		color: #212E33;
+		margin-bottom:15px;
+	}h4{
+		font: 16pt/1.4em Cambria Math;
+		text-align: left;
+		margin-left:40px;
+		color: #841717;
+	}p{
+		font:14pt/1.6em Cambria Math;
+		width:80%;
+		margin-top: 15px;
+	}figure{
+			width:90%;
+			float:none;
+			margin:20px 24px 24px 40px;
+			align-content:center;
+	}figcaption{
+				font:10pt/1.4em Cambria Math, normal;
+				float:none;
+				margin:10px 0;
+				text-align: left;
+	}h5{
+		font: 100pt/1.4em EB Garamond;
+		text-align:center;
+		margin:48px auto 24px auto;
+		background:url("town.jpg");
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+		background-size:cover;
+		filter:drop-shadow(1px 2px 0 black);
+	}li{
+		font:14pt/1.4em Cambria Math, normal;
+		list-style: none;
+		text-align:center;
+	}}#buttons{
+		width:100%;
+		margin:auto 0 0 2px;
+		display:flex;
+		justify-content:space-evenly; 
+	}button{
+		width:50px;
+		font-size:12pt;
+		margin: 6px;
+	}
+	
+</style>
+</head>
+
+<body>
+<div id="page">
+<img id="banner"
+	 src="chatgpt2.png"/>
+	<ul>
+		<a href="index.html">
+		<li>Home</li></a>
+	<a href="Page2.html">
+	<li>My Inspiration</li></a>
+	<a href="Portfolio.html">
+			<li>Portfolio</li></a>
+	<a href="Form.html">
+			<li>Get in Touch</li></a>
+	<li>Newsletter</li>
+	</ul>
+<h5>the News</h5>
+	<p id="caption">Photo by pasja1000 from Pixabay</p>
+<img id="full"
+	 src="town.jpg"/>
+<h1>PATCHWORK VILLAGE NEWSLETTER</h1>
+<h2>Portfolio Edition: A Year of Growth, Design, and Community</h2>
+	<h3>Welcome to Patchwork Village</h3>
+		<p>Over the past year, Patchwork Village has evolved from an idea into a fully imagined community—one built on creativity, inclusivity, and intentional design. This newsletter serves as both a reflection and a portfolio, highlighting the strengths, vision, and development of the village as a cohesive project.</p>
+	<h3>Our Vision</h3>
+		<p>Patchwork Village was designed as a response to the need for more connected, equitable, and human-centered spaces. The concept embraces diversity—not just socially, but structurally—bringing together different styles, ideas, and purposes into one unified environment. Like a patchwork quilt, each piece is distinct, yet essential to the whole.</p>
+	<h3>Key Features of the Village</h3>
+		<h4>1. Community-Centered Design</h4>
+			<p>At the heart of Patchwork Village is its emphasis on community. Shared spaces such as gardens, gathering areas, and creative studios were intentionally designed to encourage interaction and collaboration. Every element promotes connection, from open layouts to multipurpose spaces.</p>
+		<h4>2. Accessibility and Inclusivity</h4>
+			<p>A major strength of the project is its commitment to accessibility. Pathways, housing, and public areas were planned with diverse physical and social needs in mind, ensuring that all residents feel welcome and supported.</p>
+		<h4>3. Sustainable Living</h4>
+			<p>Sustainability is woven into the foundation of Patchwork Village. Features such as local food systems, eco-friendly materials, and energy-conscious design choices reflect a long-term vision for environmental responsibility.</p>
+		<h4>4. Creative Expression</h4>
+			<p>Patchwork Village celebrates individuality. Each section of the village carries its own character, allowing for artistic expression while still contributing to the larger identity of the community. This balance between unity and uniqueness is one of the project’s defining strengths.</p>
+	<h3>Process and Development</h3>
+		<p>Throughout the year, this project has grown through brainstorming, revision, and reflection. Early ideas focused on general layout and purpose, while later stages refined details such as functionality, aesthetics, and social impact. This iterative process demonstrates adaptability and critical thinking—key skills showcased in this portfolio.</p>
+	<h3>Looking Forward</h3>
+		<p>Patchwork Village represents more than a single project—it reflects a way of thinking about communities and design. Moving forward, the ideas developed here could be expanded into real-world applications, further research, or future creative work.</p>
+	<h3>Closing Thoughts</h3>
+		<p>This portfolio piece highlights not just the final product, but the journey behind it. Patchwork Village stands as a testament to growth, imagination, and the power of bringing different ideas together to create something meaningful.</p>
+	<div id="buttons">
+	<figure>
+		<img onClick="printPage()" src="patch 1.png"/>
+		<figcaption>Print Window</figcaption>
+	</figure>
+	<figure>
+		<img onClick="increaseContrast()" src="patch 2.png"/>
+		<figcaption>Increase Contrast</figcaption>
+		</figure>
+	<figure>
+		<img onClick="resetContrast()" src="patch 3.png"/>
+		<figcaption>Reset Contrast</figcaption>
+		</figure>
+	</div>
+	</div>
+	<script>
+		function printPage(){
+			window.print();
+		}function increaseContrast(){
+			document.getElementById('page').style.background='white';
+			
+			document.getElementById('page').style.color='black';
+		}function resetContrast(){
+			document.getElementById('page').style.background='white';
+			
+			document.getElementById('page').style.color='dimgray';
+		}
+	</script>
+</body>
+</html>
