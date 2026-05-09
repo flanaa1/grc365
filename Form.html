@@ -9,18 +9,18 @@
 		padding:0;
 	}
 	@font-face{
-	font-family: Strawberry;
-	src: url("Strawberry.ttf");
+	font-family: EB Garamond;
+	src: url("EBGaramond-Medium.ttf");
 	}@font-face{
-		font-family:Cambria Math;
-		src: url("Cambria Math.ttf");
+		font-family:Tinos;
+		src: url("Tinos-Regular.ttf");
 	}body{
 		background:#FFF4E5;
 	}#page{
 		width:928px;
 		height: 1700px;
 		background:white;
-		border: 1px dotted brown;
+		border: 1px dotted #841717;
 		margin: 0 auto;
 	}#banner{
 		margin-top:0;
@@ -28,9 +28,9 @@
 		width:100%;
 		height:20%;
 	}h1{
-		font: 32pt Strawberry;
+		font: 32pt EB Garamond;
 		text-align: center;
-		font color: brown;
+		color: #841717;
 	}ul{
 		width:100%;
 		height: 50px;
@@ -39,7 +39,7 @@
 		background: #C2F1FC;
 		margin-bottom: 24px;
 	}li{
-		font:18pt/1.4em Cambria Math, normal;
+		font:18pt/1.4em Tinos, normal;
 		list-style: none;
 		text-align:center;
 	}a{
@@ -51,10 +51,10 @@
 		padding:24px;
 		background:#C2F1FC;
 		margin:36px auto;
-		border: 1px dotted brown;
-		box shadow: 2px 3px 6px brown;
+		border: 1px dotted #841717;
+		box shadow: 2px 3px 6px #841717;
 		border-radius:18px;
-		font:14pt/1.2em Cambria Math, normal;
+		font:14pt/1.2em Tinos, normal;
 	}fieldset{
 		margin-top:18px;
 	}#personal input, #submit{
@@ -62,17 +62,18 @@
 		height:24px;
 	}input[type="text"]{
 		width:98%;
-		font:14pt/1.4em Cambria Math;
+		font:14pt/1.4em Tinos;
 		margin-top:6px;
 	}input[type="submit"]{
 		width:100px;
 		height:40px;
-		background:pink;
+		background:#FFF4E5;
 		margin: 6px auto;
 		display:block;
 		border-radius: 6px;
-		border: 1px solid dimgray;
-		font: 14pt/1.4em Cambria;
+		border: 1px dotted #841717;
+		font: 14pt/1.4em Tinos;
+		color: #561C1C;
 	}
 	</style>
 </head>
@@ -133,6 +134,7 @@
 		<label>Message</label><br/>
 		<textarea rows="5" cols="72">
 		</textarea>
+		<input type="submit"/>
 		</form>
 	</div>
 </body>

@@ -23,7 +23,7 @@
 	#page {
 		width:928px;
 		max-width:100%;
-		height:1200px;
+		height:700px;
 		max-height:100%;
 		max-width:80%;
 		background: white;
@@ -31,6 +31,7 @@
 		margin: 0 auto;
 	}h1{
 		font: 32pt EB Garamond;
+		margin-bottom: 10px;
 		text-align: center;
 		color: #841717;
 	} h2{
@@ -39,7 +40,7 @@
 		color: #561C1C;
 	}p{
 		font: 14pt/1.4em Tinos, normal;
-		width: 768px;
+		flex-basis: 0 0 100px;
 		margin: 18px auto;
 		color: #2E1A15;
 		
@@ -52,7 +53,6 @@
 		margin-top: 0;
 		margin-bottom: 0;
 		width: 100%;
-		height: 25%;
 	}video{
 		display:block;
 		float:left;
@@ -61,10 +61,11 @@
 	}figure{
 		width:640px;
 		float:left;
-		margin:6px 24px 24px 40px;
+		margin:20px 24px 24px 40px;
 	}figcaption{
 		font:14pt/1.4em Tinos, normal;
 		text-align: left;
+		flex-basis: 0 0 50;
 		margin:4px 20px 4px 350px;
 		color: #2E1A15;
 	}ul{
@@ -106,7 +107,7 @@
 			margin: 15px auto;
 		}p{
 			font:18pt/1.6em Tinos;
-			width:80%;
+			max-width:70%;
 			margin-top: 50px;
 		}video{
 			margin:20px 80px 20px 80px;
@@ -115,7 +116,7 @@
 			border:1px dotted #561C1C;
 			box-shadow: 2px 3px 6px dimgray;
 		}figure{
-			width:90%;
+			max-width:90%;
 			float:none;
 			margin:20px 24px 24px 40px;
 			align-content:center;
@@ -123,9 +124,21 @@
 				font:18pt/1.4em Tinos, normal;
 				float:none;
 				margin:10px 0;
+				max-width:70%;
 				text-align: left;
 				color: #2E1A15;
-			}
+		}ul{
+		width:100%;
+		height: 70px;
+		display:flex;
+		justify-content: space-evenly;
+		background: #C2F1FC;
+		margin-bottom: 24px;
+	}li{
+		font:14pt/1.4em Tinos, normal;
+		list-style: none;
+		text-align:center;
+	}
 	
 	
 </style>
@@ -146,9 +159,8 @@
 	<a href="Newsletter.html">
 		<li>Newsletter</li></a>
 	</ul>
-<h1>The People Who Raised Me</h1>
-<h2> Created with ChatGpt</h2>
-<p><img src="smaller.png"/>I grew up surrounded by my grandmothers, and long before I understood how rare that kind of presence was, their love shaped my childhood and became the foundation of who I am today. My Grandma Flora was part of my everyday life. She watched me while my mother worked, picked me up from school so I didn’t have to attend after-school care, and spent Sundays with my dad and me on our weekly family days. She wasn’t a traditional grandmother—she hated homemaking and loved shopping, old Westerns, and long games of Rummikub. She hosted elaborate house parties, decorated her dining room for every season, and carried herself with complete confidence. Stubborn, joyful, and unapologetically herself, she filled my childhood with laughter and taught me the importance of knowing who you are.</p>
+<h1>the Patchwork Village</h1>
+
 <figure>
 	<video poster= "hope.png" controls>
 		<source src ="small_welcome.mov">
